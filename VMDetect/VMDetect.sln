@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_demo", "1_demo", "{5D093E87-3CA1-4F79-990A-0A35E314AF46}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VMDetect", "demo\VMDetect\VMDetect.vcxproj", "{E0543B36-611B-4CE8-A20E-04B1A59A5822}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0543B36-611B-4CE8-A20E-04B1A59A5822}.Debug|x86.ActiveCfg = Debug|Win32
+		{E0543B36-611B-4CE8-A20E-04B1A59A5822}.Debug|x86.Build.0 = Debug|Win32
+		{E0543B36-611B-4CE8-A20E-04B1A59A5822}.Release|x86.ActiveCfg = Release|Win32
+		{E0543B36-611B-4CE8-A20E-04B1A59A5822}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E0543B36-611B-4CE8-A20E-04B1A59A5822} = {5D093E87-3CA1-4F79-990A-0A35E314AF46}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A8CEE52-492A-4393-9DD8-1A14948800DE}
